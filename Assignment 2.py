@@ -1,18 +1,9 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
-
 #1. Voting Eligibility
 age = int(input("Enter your age "))
 if(age<18):
     print("OOPS! Not eligible for voting")
 else:
     print("Congrats You are eligible for voting")
-
-
-# In[6]:
 
 
 #2. Even or Odd
@@ -24,16 +15,10 @@ else:
     print("The number is an ODD number")
 
 
-# In[10]:
-
-
 #3. Reverse of  String
 s = input("Enter the sting ")
 a = s[::-1]
 print("The reversed string is ",a)
-
-
-# In[12]:
 
 
 #4. Positive or not
@@ -42,9 +27,6 @@ if(num>0):
     print("The number entered is a POSITIVE number")
 else:
     print("The number entered is NOT a POSITIVE number")
-
-
-# In[ ]:
 
 
 #5. Roots of a Quadratic Equation
@@ -64,9 +46,6 @@ else:
     print("The roots of the equation are ",(-b+d**0.5)/2*a,",",(-b-d**0.5)/2*a)
 
 
-# In[ ]:
-
-
 #6. Check the number is posivite ,negative or zero
 num = float(input("Enter a number "))
 if(num>0):
@@ -76,9 +55,6 @@ else:
         print("The number entered is a NEGATIVE number")
     else:
         print("The number is 0")
-
-
-# In[ ]:
 
 
 #7. Take numbers and print in words
@@ -101,19 +77,10 @@ else:
     print("Your number is out of the range")
 
 
-# In[ ]:
-
-
 #8. Vowel or NOT a Vowel
 z = input("Enter a character ")
 if(z=='A' or z=='E' or z=='I' or z=='O' or z=='U' or z=='a' or z=='e' or z=='i' or z=='o' or z=='u'):
     print(z, "is a Vowel")
 else:
     print(z, "is a NOT a Vowel")
-
-
-# In[ ]:
-
-
-
-
+    
