@@ -42,20 +42,18 @@ else:
 
 
 #3. Marks of Students
-n = int(input("Enter number of students "))
+n = int(input("Enter number of students:"))
 if(n>=0):
-    student=["Fuker"]
+    student=[]
     for i in range(0,n):
-        name=input('Enter the name of student ')
-        print(name)
-        mark=int(input('Enter the marks out of 100 '))
-        print(mark)
+        name=input('Enter the name of student:')
+        mark=int(input('Enter the marks out of 100:'))
         if(mark<40):
             student.append(name)
-            print("This student has failed")
         else:
             print("You have passed")
-    for i in range(1,len(student)):
+    print("Students failed are:-")        
+    for i in range(0,len(student)):
         print(student[i])
 else:
     print("Invalid input")
